@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
           <div className="hidden lg:block">
             <div className="relative">
               <img
-                src="src\img\hero.jpg"
+                src="/img/hero.jpg"
                 alt="Professional sewing machine"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover transform hover:scale-105 transition-transform duration-500"
               />

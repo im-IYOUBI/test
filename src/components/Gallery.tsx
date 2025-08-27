@@ -8,35 +8,35 @@ export const Gallery: React.FC = () => {
 
   const galleryImages = [
     {
-      src: '/src/img/gallery/476235233_1097211659088783_89725.png',
+      src: '/img/gallery/476235233_1097211659088783_89725.png',
       alt: language === 'ar' ? 'ماكينة جاك للخياطة الاحترافية' : 'Machine Jack professionnelle'
     },
     {
-      src: '/src/img/gallery/482248343_1119104390232843_57860.png',
+      src: '/img/gallery/482248343_1119104390232843_57860.png',
       alt: language === 'ar' ? 'ماكينة أوفرلوك جاك' : 'Machine surjeteuse Jack'
     },
     {
-      src: '/src/img/gallery/485352661_1127228062753809_37006.png',
+      src: '/img/gallery/485352661_1127228062753809_37006.png',
       alt: language === 'ar' ? 'ماكينات نعيمي - معرض المنتجات' : 'Naimi Machines - Showroom'
     },
     {
-      src: '/src/img/gallery/485361142_1126374946172454_24651.png',
+      src: '/img/gallery/485361142_1126374946172454_24651.png',
       alt: language === 'ar' ? 'ماكينة خياطة صناعية جاك' : 'Machine industrielle Jack'
     },
     {
-      src: '/src/img/gallery/487065324_1134990151977600_54345.png',
+      src: '/img/gallery/487065324_1134990151977600_54345.png',
       alt: language === 'ar' ? 'ورشة ماكينات نعيمي' : 'Atelier Naimi Machines'
     },
     {
-      src: '/src/img/gallery/487352423_1139547278188554_78156.png',
+      src: '/img/gallery/487352423_1139547278188554_78156.png',
       alt: language === 'ar' ? 'ماكينات الكي المتقدمة' : 'Machines de repassage avancées'
     },
     {
-      src: '/src/img/gallery/490328398_1148862530590362_64430.png',
+      src: '/img/gallery/490328398_1148862530590362_64430.png',
       alt: language === 'ar' ? 'قطع غيار ماكينات جاك' : 'Pièces détachées Jack'
     },
     {
-      src: '/src/img/gallery/490593873_1149136657229616_33398.png',
+      src: '/img/gallery/490593873_1149136657229616_33398.png',
       alt: language === 'ar' ? 'خدمة ما بعد البيع - ماكينات نعيمي' : 'Service après-vente Naimi'
     }
   ];
