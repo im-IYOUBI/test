@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Amiri:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Arabic font styling */
+  [dir="rtl"] {
+    font-family: 'Amiri', serif;
+  }
+  
+  /* French font styling */
+  [dir="ltr"] {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /* Elegant headings for both languages */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 600;
+  }
+  
+  /* Arabic specific styling */
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6 {
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+  }
+  
+  /* French specific styling */
+  [dir="ltr"] h1, [dir="ltr"] h2, [dir="ltr"] h3, [dir="ltr"] h4, [dir="ltr"] h5, [dir="ltr"] h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+  }
+  
+  /* Body text refinements */
+  [dir="rtl"] p, [dir="rtl"] span, [dir="rtl"] div {
+    font-family: 'Amiri', serif;
+    line-height: 1.8;
+  }
+  
+  [dir="ltr"] p, [dir="ltr"] span, [dir="ltr"] div {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.7;
+  }
+}

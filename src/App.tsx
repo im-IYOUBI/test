@@ -1,4 +1,3 @@
-import React from 'react';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -8,6 +7,7 @@ import { Gallery } from './components/Gallery';
 import { WhyChooseUs } from './components/WhyChooseUs';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <FloatingWhatsApp />
       </div>
     </LanguageProvider>
   );

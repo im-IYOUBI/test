@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Scissors, Globe } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+
+// Custom Sewing Machine Icon Component
+const SewingMachineIcon: React.FC<{ className?: string }> = ({ className = "h-6 w-6" }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20 8h-2V6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2zM8 6h8v2H8V6zm12 12H4v-6h16v6zm-2-4c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1zm-8 0c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1z"/>
+    <circle cx="9" cy="16" r="1"/>
+    <circle cx="17" cy="14" r="1"/>
+    <path d="M12 10h4v1h-4z"/>
+  </svg>
+);
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +50,7 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2 rtl:space-x-reverse">
             <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 p-2 rounded-lg shadow-lg">
-              <Scissors className="h-6 w-6 text-white" />
+              <SewingMachineIcon className="h-6 w-6 text-white" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-slate-800">{t('brandName')}</span>
