@@ -53,7 +53,7 @@ export const About: React.FC = () => {
           <div className="mt-12 lg:mt-0">
             <div className="relative">
               <img
-                src="public\img\image.png"
+                src="img\about.png"
                 alt="Workshop with sewing machines"
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />
