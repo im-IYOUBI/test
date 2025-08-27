@@ -49,9 +49,7 @@ export const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2 rtl:space-x-reverse">
-            <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 p-2 rounded-lg shadow-lg">
-              <SewingMachineIcon className="h-6 w-6 text-white" />
-            </div>
+            
             <div className="flex flex-col">
               <span className="text-xl font-bold text-slate-800">{t('brandName')}</span>
               <span className="text-xs text-emerald-600 font-medium">Naimi Machines</span>
